@@ -494,7 +494,7 @@ void CInfoControl::Draw(HDC dc)
 		"CT",TRUE,0,1,
 		"(Chicken Tournament)",TRUE,0,1,
 		"Version 1.2",TRUE,0,0,
-		"("__DATE__", "__TIME__")",TRUE,5,0,
+		"(" __DATE__ ", " __TIME__ ")",TRUE,5,0,
 
 		M_HAUPTIDEE,HEAD,
 		"Andreas Kempe",NORMAL,
