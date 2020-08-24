@@ -3,6 +3,11 @@
 *.tlog
 *.bsc
 *.ilk
+*.aps
+*.res
+*.exp
+RC*
+src/*.lib
 
 # Debug information
 *.pdb
