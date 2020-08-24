@@ -80,7 +80,7 @@ BOOL CALLBACK ConnectionProc(HWND hWnd,UINT uMsg,WPARAM wParam,LPARAM lParam)
 
 		if(FAILED(game->lpDirectPlay->EnumConnections( &MYGUID,EnumConnectionsCallback, 
 											GetDlgItem(hWnd,IDC_LIST),0)))EndDialog(hWnd,0);
-		if (SendDlgItemMessage(hWnd,IDC_LIST,LB_SETCURSEL,1,0)==LB_ERR)
+		if (SendDlgItemMessage(hWnd,IDC_LIST,LB_SETCURSEL,2,0)==LB_ERR)
 			EndDialog(hWnd,1);
 		SendDlgItemMessage(hWnd,IDC_DIRECTPLAYPROTOCOL,BM_SETCHECK,1,0);
 		break;
