@@ -22,6 +22,9 @@ src/Resources/Debug/
 *.exe
 *.dll
 
+# Config
+src/config.dat
+
 # Visual Studio files
 src/.vs/
 *.pch
