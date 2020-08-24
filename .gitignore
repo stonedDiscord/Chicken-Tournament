@@ -1,0 +1,23 @@
+# Build files
+*.obj
+*.tlog
+*.bsc
+*.ilk
+
+# Debug information
+*.pdb
+*.idb
+*.log
+
+# Processed ressources
+*.sbr
+src/Resources/Debug/
+
+# Compiled files
+*.exe
+*.dll
+
+# Visual Studio files
+src/.vs/
+*.pch
+*.vcxproj.user
