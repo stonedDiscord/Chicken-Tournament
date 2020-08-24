@@ -618,124 +618,124 @@ FEDER.BMP               BITMAP  DISCARDABLE     "FEDER.bmp"
 // WAVE
 //
 
-GLUCKE.WAV              WAVE    DISCARDABLE     "GLUCKE.WAV"
-SPLAT.WAV               WAVE    DISCARDABLE     "splat.wav"
-THROW.WAV               WAVE    DISCARDABLE     "throw.wav"
-FORK.WAV                WAVE    DISCARDABLE     "fork.wav"
-METAL.WAV               WAVE    DISCARDABLE     "metal.wav"
-GLUCKE2.WAV             WAVE    DISCARDABLE     "glucke2.wav"
+GLUCKE.WAV              WAVE    DISCARDABLE     "Sound\\GLUCKE.WAV"
+SPLAT.WAV               WAVE    DISCARDABLE     "Sound\\splat.wav"
+THROW.WAV               WAVE    DISCARDABLE     "Sound\\throw.wav"
+FORK.WAV                WAVE    DISCARDABLE     "Sound\\fork.wav"
+METAL.WAV               WAVE    DISCARDABLE     "Sound\\metal.wav"
+GLUCKE2.WAV             WAVE    DISCARDABLE     "Sound\\glucke2.wav"
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-MONSTERKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "monsterkill.wav"
+MONSTERKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\monsterkill.wav"
 #else
-MONSTERKILL.WAV         WAVE    DISCARDABLE     "monsterkill.wav"
-#endif
-#endif
-#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
-#if defined(APSTUDIO_INVOKED)
-MULTIKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "multikill.wav"
-#else
-MULTIKILL.WAV           WAVE    DISCARDABLE     "multikill.wav"
+MONSTERKILL.WAV         WAVE    DISCARDABLE     "Sound\\monsterkill.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-ULTRAKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "ultrakill.wav"
+MULTIKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\multikill.wav"
 #else
-ULTRAKILL.WAV           WAVE    DISCARDABLE     "ultrakill.wav"
+MULTIKILL.WAV           WAVE    DISCARDABLE     "Sound\\multikill.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-DOUBLEKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "doublekill.wav"
+ULTRAKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\ultrakill.wav"
 #else
-DOUBLEKILL.WAV          WAVE    DISCARDABLE     "doublekill.wav"
-#endif
-#endif
-WADE.WAV                WAVE    DISCARDABLE     "wade.wav"
-JUMP.WAV                WAVE    DISCARDABLE     "jump.wav"
-STEP1.WAV               WAVE    DISCARDABLE     "step1.wav"
-STEP2.WAV               WAVE    DISCARDABLE     "step2.wav"
-STEP3.WAV               WAVE    DISCARDABLE     "step3.wav"
-STEP4.WAV               WAVE    DISCARDABLE     "step4.wav"
-ENGINE.WAV              WAVE    DISCARDABLE     "engine.wav"
-EISPLAT.WAV             WAVE    DISCARDABLE     "eisplat.wav"
-#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
-#if defined(APSTUDIO_INVOKED)
-DENIED.WAV$(UTSOUNDS)   WAVE    DISCARDABLE     "denied.wav"
-#else
-DENIED.WAV              WAVE    DISCARDABLE     "denied.wav"
-#endif
-#endif
-BODYSPLAT.WAV           WAVE    DISCARDABLE     "bodysplat.wav"
-#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
-#if defined(APSTUDIO_INVOKED)
-UNSTOPPABLE.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "unstoppable.wav"
-#else
-UNSTOPPABLE.WAV         WAVE    DISCARDABLE     "unstoppable.wav"
+ULTRAKILL.WAV           WAVE    DISCARDABLE     "Sound\\ultrakill.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-DOMINATING.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "dominating.wav"
+DOUBLEKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\doublekill.wav"
 #else
-DOMINATING.WAV          WAVE    DISCARDABLE     "dominating.wav"
+DOUBLEKILL.WAV          WAVE    DISCARDABLE     "Sound\\doublekill.wav"
+#endif
+#endif
+WADE.WAV                WAVE    DISCARDABLE     "Sound\\wade.wav"
+JUMP.WAV                WAVE    DISCARDABLE     "Sound\\jump.wav"
+STEP1.WAV               WAVE    DISCARDABLE     "Sound\\step1.wav"
+STEP2.WAV               WAVE    DISCARDABLE     "Sound\\step2.wav"
+STEP3.WAV               WAVE    DISCARDABLE     "Sound\\step3.wav"
+STEP4.WAV               WAVE    DISCARDABLE     "Sound\\step4.wav"
+ENGINE.WAV              WAVE    DISCARDABLE     "Sound\\engine.wav"
+EISPLAT.WAV             WAVE    DISCARDABLE     "Sound\\eisplat.wav"
+#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
+#if defined(APSTUDIO_INVOKED)
+DENIED.WAV$(UTSOUNDS)   WAVE    DISCARDABLE     "Sound\\denied.wav"
+#else
+DENIED.WAV              WAVE    DISCARDABLE     "Sound\\denied.wav"
+#endif
+#endif
+BODYSPLAT.WAV           WAVE    DISCARDABLE     "Sound\\bodysplat.wav"
+#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
+#if defined(APSTUDIO_INVOKED)
+UNSTOPPABLE.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\unstoppable.wav"
+#else
+UNSTOPPABLE.WAV         WAVE    DISCARDABLE     "Sound\\unstoppable.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-GODLIKE.WAV$(UTSOUNDS)  WAVE    DISCARDABLE     "godlike.wav"
+DOMINATING.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\dominating.wav"
 #else
-GODLIKE.WAV             WAVE    DISCARDABLE     "godlike.wav"
+DOMINATING.WAV          WAVE    DISCARDABLE     "Sound\\dominating.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-KILLINGSPREE.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "killingspree.wav"
+GODLIKE.WAV$(UTSOUNDS)  WAVE    DISCARDABLE     "Sound\\godlike.wav"
 #else
-KILLINGSPREE.WAV        WAVE    DISCARDABLE     "killingspree.wav"
+GODLIKE.WAV             WAVE    DISCARDABLE     "Sound\\godlike.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-RAMPAGE.WAV$(UTSOUNDS)  WAVE    DISCARDABLE     "rampage.wav"
+KILLINGSPREE.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\killingspree.wav"
 #else
-RAMPAGE.WAV             WAVE    DISCARDABLE     "rampage.wav"
-#endif
-#endif
-PLASMA.WAV              WAVE    DISCARDABLE     "Plasma.wav"
-PLASMA2.WAV             WAVE    DISCARDABLE     "plasma2.wav"
-COOL.WAV                WAVE    DISCARDABLE     "COOL.wav"
-ITEM.WAV                WAVE    DISCARDABLE     "item.wav"
-#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
-#if defined(APSTUDIO_INVOKED)
-WHICKEDSICK.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "WhickedSick.wav"
-#else
-WHICKEDSICK.WAV         WAVE    DISCARDABLE     "WhickedSick.wav"
+KILLINGSPREE.WAV        WAVE    DISCARDABLE     "Sound\\killingspree.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-MEGAKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "megakill.wav"
+RAMPAGE.WAV$(UTSOUNDS)  WAVE    DISCARDABLE     "Sound\\rampage.wav"
 #else
-MEGAKILL.WAV            WAVE    DISCARDABLE     "megakill.wav"
+RAMPAGE.WAV             WAVE    DISCARDABLE     "Sound\\rampage.wav"
+#endif
+#endif
+PLASMA.WAV              WAVE    DISCARDABLE     "Sound\\Plasma.wav"
+PLASMA2.WAV             WAVE    DISCARDABLE     "Sound\\plasma2.wav"
+COOL.WAV                WAVE    DISCARDABLE     "Sound\\COOL.wav"
+ITEM.WAV                WAVE    DISCARDABLE     "Sound\\item.wav"
+#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
+#if defined(APSTUDIO_INVOKED)
+WHICKEDSICK.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\WhickedSick.wav"
+#else
+WHICKEDSICK.WAV         WAVE    DISCARDABLE     "Sound\\WhickedSick.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-LUDICROUSKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "LudicrousKill.wav"
+MEGAKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\megakill.wav"
 #else
-LUDICROUSKILL.WAV       WAVE    DISCARDABLE     "LudicrousKill.wav"
+MEGAKILL.WAV            WAVE    DISCARDABLE     "Sound\\megakill.wav"
 #endif
 #endif
 #if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
 #if defined(APSTUDIO_INVOKED)
-HOLYSHIT.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "HolyShit.wav"
+LUDICROUSKILL.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\LudicrousKill.wav"
 #else
-HOLYSHIT.WAV            WAVE    DISCARDABLE     "HolyShit.wav"
+LUDICROUSKILL.WAV       WAVE    DISCARDABLE     "Sound\\LudicrousKill.wav"
 #endif
 #endif
-FIRE.WAV                WAVE    DISCARDABLE     "fire.wav"
+#if defined(APSTUDIO_INVOKED) || defined(UTSOUNDS)
+#if defined(APSTUDIO_INVOKED)
+HOLYSHIT.WAV$(UTSOUNDS) WAVE    DISCARDABLE     "Sound\\HolyShit.wav"
+#else
+HOLYSHIT.WAV            WAVE    DISCARDABLE     "Sound\\HolyShit.wav"
+#endif
+#endif
+FIRE.WAV                WAVE    DISCARDABLE     "Sound\\fire.wav"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -755,28 +755,35 @@ SKY3.JPG                JPEG    DISCARDABLE     "Sky3.jpg"
 SKY4.JPG                JPEG    DISCARDABLE     "Sky4.jpg"
 SPLASH.JPG              JPEG    DISCARDABLE     "splash.jpg"
 STALL.JPG               JPEG    DISCARDABLE     "stall.jpg"
-IMAGE1.JPG              JPEG    DISCARDABLE     "image1.jpg"
-IMAGE2.JPG              JPEG    DISCARDABLE     "image2.jpg"
-IMAGE4.JPG              JPEG    DISCARDABLE     "image4.jpg"
-IMAGE3.JPG              JPEG    DISCARDABLE     "image3.jpg"
-IMAGE5.JPG              JPEG    DISCARDABLE     "image5.JPG"
-IMAGE6.JPG              JPEG    DISCARDABLE     "image6.JPG"
-IMAGE7.JPG              JPEG    DISCARDABLE     "image7.JPG"
-IMAGE8.JPG              JPEG    DISCARDABLE     "image8.JPG"
 PLASMA.JPG              JPEG    DISCARDABLE     "plasma.jpg"
 BRATHUHN.JPG            JPEG    DISCARDABLE     "brathuhn.jpg"
 STRIPES.JPG             JPEG    DISCARDABLE     "stripes.jpg"
 MEDIC.JPG               JPEG    DISCARDABLE     "medic.jpg"
 SPHEREMAP.JPG           JPEG    DISCARDABLE     "spheremap.jpg"
-IMAGE9.JPG              JPEG    DISCARDABLE     "image9.jpg"
-IMAGE10.JPG             JPEG    DISCARDABLE     "image10.jpg"
-IMAGE11.JPG             JPEG    DISCARDABLE     "image11.jpg"
 BARK.JPG                JPEG    DISCARDABLE     "bark.JPG"
-IMAGE12.JPG             JPEG    DISCARDABLE     "image12.jpg"
-IMAGE15.JPG             JPEG    DISCARDABLE     "image15.jpg"
-IMAGE13.JPG             JPEG    DISCARDABLE     "image13.jpg"
-IMAGE14.JPG             JPEG    DISCARDABLE     "image14.jpg"
 FIRE.JPG                JPEG    DISCARDABLE     "fire.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BILDER
+//
+
+IMAGE1.JPG              JPEG    DISCARDABLE     "Bilder\\image1.jpg"
+IMAGE2.JPG              JPEG    DISCARDABLE     "Bilder\\image2.jpg"
+IMAGE4.JPG              JPEG    DISCARDABLE     "Bilder\\image4.jpg"
+IMAGE3.JPG              JPEG    DISCARDABLE     "Bilder\\image3.jpg"
+IMAGE5.JPG              JPEG    DISCARDABLE     "Bilder\\image5.JPG"
+IMAGE6.JPG              JPEG    DISCARDABLE     "Bilder\\image6.JPG"
+IMAGE7.JPG              JPEG    DISCARDABLE     "Bilder\\image7.JPG"
+IMAGE8.JPG              JPEG    DISCARDABLE     "Bilder\\image8.JPG"
+IMAGE9.JPG              JPEG    DISCARDABLE     "Bilder\\image9.jpg"
+IMAGE10.JPG             JPEG    DISCARDABLE     "Bilder\\image10.jpg"
+IMAGE11.JPG             JPEG    DISCARDABLE     "Bilder\\image11.jpg"
+IMAGE12.JPG             JPEG    DISCARDABLE     "Bilder\\image12.jpg"
+IMAGE15.JPG             JPEG    DISCARDABLE     "Bilder\\image15.jpg"
+IMAGE13.JPG             JPEG    DISCARDABLE     "Bilder\\image13.jpg"
+IMAGE14.JPG             JPEG    DISCARDABLE     "Bilder\\image14.jpg"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
