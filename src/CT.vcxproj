@@ -106,7 +106,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <SubSystem>Windows</SubSystem>
       <OutputFile>Release/CT.exe</OutputFile>
-      <AdditionalDependencies>odbc32.lib;odbccp32.lib;ddraw.lib;d3dim.lib;winmm.lib;dxguid.lib;d3dx.lib;dinput.lib;dsound.lib;d3dxof.lib;amstrmid.lib;helperlib.lib;resources.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;ddraw.lib;d3dim.lib;winmm.lib;dxguid.lib;d3dx.lib;dinput.lib;dsound.lib;d3dxof.lib;amstrmid.lib;helperlib.lib;resources.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <StackReserveSize>1</StackReserveSize>
       <StackCommitSize>1</StackCommitSize>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
@@ -151,7 +151,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OutputFile>Debug/CT.exe</OutputFile>
-      <AdditionalDependencies>odbc32.lib;odbccp32.lib;ddraw.lib;d3dim.lib;winmm.lib;dxguid.lib;d3dx.lib;dinput.lib;dsound.lib;d3dxof.lib;amstrmid.lib;helperlib.lib;resources.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;ddraw.lib;d3dim.lib;winmm.lib;dxguid.lib;d3dx.lib;dinput.lib;dsound.lib;d3dxof.lib;amstrmid.lib;helperlib.lib;resources.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
