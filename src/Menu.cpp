@@ -379,6 +379,7 @@ void GetDisplayModes(HWND hWnd)
 #define SetMode(w,h,bpp) if (index==LB_ERR) { CHAR c[100]; sprintf(&c[0],"%dx%dx%d",w,h,bpp); index=SendMessage(combo,CB_FINDSTRINGEXACT,0,DWORD(&c[0])); }
 
 	SetMode(Config.resx,Config.resy,Config.bpp);
+	SetMode(1920, 1080, 32);
 	SetMode(1024,768,32);
 	SetMode(800,600,32);
 	SetMode(640,480,32);
