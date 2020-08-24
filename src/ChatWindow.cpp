@@ -112,7 +112,7 @@ void CChatWindow::DrawUI(LPDIRECT3DDEVICE7 lpDevice)
 	}
 
 	const float w=game->width/2.0f;
-	const float h=game->height*4.0f/3.0f/2.0f/8.0f;
+	const float h=game->height*0.04f;
 
 	const float left=(game->width-w)/2.0f;
 	const float top=(game->height-h*1.5f);
@@ -150,27 +150,27 @@ void CChatWindow::MyDraw(const HDC dc)const
 	const HBRUSH brush=CreateSolidBrush(RGB(64,64,64)),oldbrush=(HBRUSH)SelectObject(dc,brush);
 	SelectObject(dc,GetStockObject(BLACK_PEN));
 
-	Rectangle(dc,0,0,256,32);
+	Rectangle(dc,0,0,256,256);
 
 	SelectObject(dc,oldbrush);
 	DeleteObject(brush);
 
 	SetBkMode(dc,TRANSPARENT);
-	const int fh=20;
-	const int fw=7;
+	const int fh=160;
+	const int fw=10;
 
-	const HFONT font=CreateFont(fh,fw,0,0,400,0,0,0,0,0,0,NONANTIALIASED_QUALITY,0,"Courier New"),
+	const HFONT font=CreateFont(fh,fw,0,0,400,0,0,0,0,0,0,ANTIALIASED_QUALITY,0,"Verdana"),
 		oldfont=(HFONT)SelectObject(dc,font);
 
 	SetTextColor(dc,RGB(255,255,255));
-	RECT r={5,0,250,32};
+	RECT r={5,0,251,256};
 	SIZE s;
 	DrawText(dc,"Chat:",5,&r,DT_VCENTER|DT_SINGLELINE);
 
 	GetTextExtentPoint(dc,"Chat:",5,&s);
 	r.left+=s.cx+2;
-	r.top+=(32-s.cy)/2-2;
-	r.bottom-=(32-s.cy)/2-2;
+	r.top+=(256-s.cy)/2-2;
+	r.bottom-=(256-s.cy)/2-2;
 	r.right-=2;
 	SelectObject(dc,GetStockObject(BLACK_BRUSH));
 	SelectObject(dc,GetStockObject(WHITE_PEN));
