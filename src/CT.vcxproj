@@ -57,8 +57,8 @@
     <OutDir>.\Release\</OutDir>
     <IntDir>.\Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Sascha\Documents\GitHub\Chicken-Tournament\directxsdk\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Sascha\Documents\GitHub\Chicken-Tournament\directxsdk\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\directxsdk\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\directxsdk\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\Debug\</OutDir>
@@ -109,6 +109,7 @@
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;ddraw.lib;d3dim.lib;winmm.lib;dxguid.lib;d3dx.lib;dinput.lib;dsound.lib;d3dxof.lib;amstrmid.lib;helperlib.lib;resources.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <StackReserveSize>1</StackReserveSize>
       <StackCommitSize>1</StackCommitSize>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

@@ -64,8 +64,8 @@
     <OutDir>.\Release\</OutDir>
     <IntDir>.\Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Sascha\Documents\GitHub\Chicken-Tournament\directxsdk\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Sascha\Documents\GitHub\Chicken-Tournament\directxsdk\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\directxsdk\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\directxsdk\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
