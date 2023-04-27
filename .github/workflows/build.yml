@@ -24,10 +24,13 @@ jobs:
       - name: Pack
         run: |
           mkdir ./bin/
-          cp ./src/Release/CT.exe ./bin/CT.exe
+          cp ./src/Release/CT.exe ./bin/
+          cp ./src/Resources.dll ./bin/
+          cp ./src/Register4Lobby/Release/Register4Lobby.exe ./bin/
+          cp ./src/readme-*.txt ./bin/
 
       - name: Upload Artifact
         uses: actions/upload-artifact@master
         with:
           name: chicken-tournament
-          path: ./
+          path: ./bin/
