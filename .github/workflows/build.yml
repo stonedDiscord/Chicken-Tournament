@@ -19,7 +19,7 @@ jobs:
         run: |
           "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
           cd src
-          msbuild CT.sln /property:Configuration=Release /p:Platform=Win32 /p:PlatformToolset=v143
+          msbuild -m CT.sln /property:Configuration=Release /p:Platform=Win32 /p:PlatformToolset=v143
           
       - name: Pack
         run: |
