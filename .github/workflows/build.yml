@@ -20,9 +20,14 @@ jobs:
           "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
           cd src
           msbuild CT.sln /property:Configuration=Release /p:Platform=Win32 /p:PlatformToolset=v143
+          
+      - name: Pack
+        run: |
+          cp ./src/CT.exe ./bin/CT.exe
+          cp ./src/Resources/Resources.dll ./bin/Resources.dll
 
       - name: Upload Artifact
         uses: actions/upload-artifact@master
         with:
           name: chicken-tournament
-          path: ./src/Release/
+          path: ./bin/
