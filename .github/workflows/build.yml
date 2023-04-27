@@ -25,9 +25,6 @@ jobs:
         run: |
           mkdir ./bin/
           cp ./src/Release/CT.exe ./bin/CT.exe
-          cp ./src/Resources/Resources.dll ./bin/Resources.dll
-          cp ./src/Register4Lobby/Release/Register4Lobby.exe ./bin/Register4Lobby.exe
-          cp ./src/readme-*.txt ./bin/
 
       - name: Upload Artifact
         uses: actions/upload-artifact@master
