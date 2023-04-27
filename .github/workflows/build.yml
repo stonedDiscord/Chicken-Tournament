@@ -1,0 +1,28 @@
+name: Bauen
+on: [push, pull_request]
+
+jobs:
+  windows:
+    name: Windows
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ env.GITHUB_REPOSITORY }}
+          ref: ${{ env.GITHUB_HEAD_REF }}
+
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.1
+
+      - name: Build
+        run: |
+          "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
+          cd src
+          msbuild CT.sln /property:Configuration=Release
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: chicken-tournament
+          path: ./bin/aes-finder.exe
