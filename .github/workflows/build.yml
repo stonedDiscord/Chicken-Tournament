@@ -25,4 +25,4 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: chicken-tournament
-          path: ./bin/CT.exe
+          path: ./src/Release/
