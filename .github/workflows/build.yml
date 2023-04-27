@@ -23,6 +23,7 @@ jobs:
           
       - name: Pack
         run: |
+          mkdir ./bin/
           cp ./src/Release/CT.exe ./bin/CT.exe
           cp ./src/Resources/Release/Resources.dll ./bin/Resources.dll
           cp ./src/Register4Lobby/Release/Register4Lobby.exe ./bin/Register4Lobby.exe
