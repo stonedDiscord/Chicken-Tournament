@@ -8,9 +8,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          repository: ${{ env.GITHUB_REPOSITORY }}
-          ref: ${{ env.GITHUB_HEAD_REF }}
 
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v2
