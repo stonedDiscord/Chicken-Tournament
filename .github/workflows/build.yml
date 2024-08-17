@@ -7,13 +7,13 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ${{ env.GITHUB_REPOSITORY }}
           ref: ${{ env.GITHUB_HEAD_REF }}
 
       - name: Add msbuild to PATH
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@v2
         
       - name: Build
         run: |
@@ -30,7 +30,7 @@ jobs:
           cp ./src/readme-*.txt ./bin/
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@v4
         with:
           name: chicken-tournament
           path: ./bin/
